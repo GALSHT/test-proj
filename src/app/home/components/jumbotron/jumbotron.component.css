@@ -1,0 +1,23 @@
+.jumbotron{
+    height: 55%;
+    width: 90%;
+    margin:7em auto;
+    text-align: center;
+    padding-top:5em;
+}
+.jumbotron h1{
+    font-weight: 300;
+    font-size:3em;
+    color:black;
+    display:block;
+    margin-bottom: .2em;
+    text-transform: uppercase;
+}
+.jumbotron h3{
+    font-size:1.5em;
+    font-weight: 300;
+    color:#86C232;
+    display:block;
+    margin-top:.2em;
+    text-transform: uppercase;
+}

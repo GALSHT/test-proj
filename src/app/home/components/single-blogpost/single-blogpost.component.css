@@ -1,0 +1,155 @@
+.blogpost-item{
+    display:flex;
+    flex-direction: column;
+    width:800px;
+    margin:2em;
+    border-bottom: 1px solid grey;
+}
+.blogpost-heading{
+    flex-basis: 20%;
+    word-wrap:break-word;
+    color:rgba(0,0,0,.5);
+    width:80%;
+    margin:1em auto;
+    margin-bottom:.2em;
+}
+.blogpost-heading h2{
+    font-weight: 400;
+    margin:0;
+}
+.blogpost-image{
+    flex-basis: 30%;
+}
+.blogpost-image img{
+    min-width: 100%;
+    min-height:50%;
+    border-radius: 10px;
+}
+.blogpost-summary{
+    width: 80%;
+    margin:0 auto;
+}
+.blogpost-summary p{
+    color:rgba(0,0,0,.5);
+    font-size:1.2em;
+}
+.blogpost-widget{
+    width: 80%;
+    margin:1em auto;
+    display:flex;
+
+}
+.blogpost-widget button{
+    border:1px solid #86C232;
+    border-radius: 20px;
+    background-color:white;
+    padding:1em;
+    cursor:pointer;
+    transition: .2s;
+}
+.blogpost-widget button:hover{
+    background-color:#86C232;
+    color:white;
+}
+.blogpost-footer{
+    flex-basis:5%;
+    width: 80%;
+    margin:0 auto;
+}
+.blogpost-footer ul{
+    display:inline-block;
+    margin-bottom:.5em;
+    margin-top:.2em;
+    padding: 0;
+}
+.blogpost-footer li{
+    display:inline-block;
+    margin:1em 2em .5em 0;
+    font-size:.7em;
+    text-transform: uppercase;
+}
+.blogpost-footer button{
+    background-color:#86C232;
+    border:none;
+    border-radius:10px;
+    color:white;
+    margin-top:1em;
+    text-transform: uppercase;
+    padding:1em;
+    width:150px;
+    cursor:pointer
+}
+
+
+/*HOVERS*/
+
+.share {
+    position: relative;
+    width: 300px;
+    height:30px;
+    margin-left:1em;
+    border-radius: 80px;
+    display:inline-block;
+  }
+  .share span {
+    width: 50px;
+    padding:.7em;
+    display: inline-block;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+  }
+  .share nav {
+    font-size: 0;
+  }
+  .share a {
+    line-height: 30px;  
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #ffffff;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+    padding:5px;
+  }
+  .share a:nth-child(1) {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 0;
+  }
+  .share a:nth-child(1):hover {
+    background-color: #61c5ec;
+  }
+  .share a:nth-child(2):hover {
+    background-color: #3B5998;
+  }
+  .share a:nth-child(3):hover {
+    background-color: #ea4335;
+  }
+  .share a:nth-child(4) {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-right: 0;
+  }
+  .share a:nth-child(4):hover {
+    background-color: #000000;
+  }
+  .share:hover span, .share.hover span {
+    opacity: 0;
+  }
+  .share:hover a, .share.hover a {
+    border-radius: 50%;
+    margin: 0 10px;
+    color: #86C232;
+    font-size: 28px;
+  }
+  .share:hover a:hover, .share.hover a:hover {
+    color: #fff;
+  }
+  
